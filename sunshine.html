@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sunshine bay residence</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #eaeaea;
+  height: 90px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navleft{
+    margin-left: 800px;
+    margin-top: -50px;
+}
+.navright{
+    margin-top: 12px;
+    padding-left: 55px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 18px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  border-bottom: 4px black solid;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  border-bottom: 2px black solid;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.footer{
+    height: 335px;
+    width: 1503px;
+    background-color: #2b2c32;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+.footer1{
+    margin-left: 200px;
+    margin-top: 93px;
+}
+.footer2{
+    margin-top: 85px;
+}
+.footer3{
+    margin-right: 200px;
+    margin-top: 85px;
+}
+.eight{
+    display: flex;
+    height: 768px;
+    width: 1503px;
+    background-color: #2b2c32;
+    color: white;
+    
+}
+.eightleft{
+    margin-left: 250px;
+    display: grid;
+    margin-top: 80px;
+}
+.eightright{
+    margin-right: 250px;
+    margin-left: 184px;
+    margin-top: 141px;
+}
+
+.eightl1{
+    font-size: 35px;
+}
+.eightl2{
+    font-size: 14px;
+    width: 400px;
+    margin-top: -150px;
+}
+.input1{    height: 35px;
+    width: 350px;
+    margin-bottom: 30px;
+
+}
+.input2{
+    height: 100px;
+    width: 350px;
+    margin-bottom: 30px;
+}
+.but11{
+    color: #2b2c32;;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    background-color: white;
+    margin-left: 207px;}
+
+.anc1{
+    text-decoration: none;
+    color: #2b2c32;;
+}
+.fourth{
+    
+    height: 768px;
+    width: 1503px;
+    background-color: #eaeaea;
+}
+.fourthhead{
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+}
+.fh1{
+    font-size: 29px;
+}
+.fh2{margin-top: 20px;}
+.fourthimage{
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+}
+.fi2{
+    margin-left: 15px;
+}
+.flabel{
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    margin-top: -15px;
+}
+.fl2{
+    margin-left: 258px;
+}
+.ffoot{
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.ff1{
+    font-size: 13px;
+    width: 580px;
+}
+.ff2{
+    margin-left: 277px;
+}
+.button1{
+    color: white;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    background-color: #2b2c32;
+}
+.button1:hover{
+    color:  #2b2c32;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    background-color: white;
+}
+.second{
+    height: 768px;
+    width: 1503px;
+    background-color: #2b2c32;
+    display: flex;
+    color: white;
+}
+.secondleft{
+    margin-left: 250px;
+    FONT-SIZE: 65px;
+    margin-top: 135px;
+}
+.secondright{
+    display: grid;
+    margin-right: 250px;
+    margin-top: 135px;
+}
+.a{
+    display: flex;
+}
+.a1{
+    margin-top: 16px;
+}
+.fifth{
+    height: 768px;
+    width: 1503px;
+    background-color:#d9dfe5;
+    display: flex;
+    color:  #2b2c32;
+    display: grid;
+}
+.fif1{
+    display: flex;
+    margin-right: 300px;
+}
+.fif2{
+    display: flex;
+}
+.fifhead{
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 210px;
+    font-size: 60px;
+
+}
+.fifbody{
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    margin-top: -10px;
+}
+.sixth{
+    height: 768px;
+    width: 1503px;
+    background-color: #d9dfe5;
+    display: flex;
+
+}
+.sixthleft{
+    margin-left: 250px;
+    FONT-SIZE: 65px;
+    margin-top: 135px;
+}
+.sixthright{
+    display: grid;
+    margin-right: 250px;
+    margin-top: 135px;
+    margin-left: 140px;
+}
+.aa1{
+    font-size: 100px;
+}
+.third{
+    height: 2000px;
+    width: 1503px;
+    background-color: #eaeaea;
+}
+.thirdhead{
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.t1{
+    font-size: 30px;
+}
+.t2{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.t3{
+    padding-top: 75px;
+    margin-left: 30px;
+}
+.thirdimage{
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.imgleft{
+    margin-left: 5px;
+    display: grid;
+}
+.thirdbody{
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+}
+.b1{
+    width: 375px;
+    font-size: 13px;
+    margin-top: 18px;
+}
+.b2{
+    width: 600px;
+    margin-left: 135px;
+    font-size: 13px;
+    margin-top: 18px;
+}
+
+.button1{
+    color: white;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    background-color: #2b2c32;
+}
+.button1:hover{
+    color:  #2b2c32;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    background-color: white;
+}
+.holdersecond{
+    display: flex;
+    margin-top: 130px;
+}
+.hsright{
+    margin-left: 120px;
+    margin-top: -20px;
+    margin-right: 250px;
+    display: grid
+    
+
+}
+.hsleft{
+    margin-left: 250px;
+}
+.bed{
+    display:  grid;
+}
+.secondholder1{
+    display: flex;
+    margin-top: 50px;
+}
+.secondholderleft{
+    margin-left: 250px;
+    width: 611px;
+    font-size: 14px;
+}
+.secondholderright{
+    margin-right: 250px;
+    margin-left: 90px;
+    margin-top: -20px;
+    color: grey;
+}
+.sc{
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+}
+.sc2{
+    margin-left: 20px;
+}
+
+</style>
+</head>
+<body>
+    <body style="background-color:white;">
+        <div class="navbar">
+            <div class="navright">
+              <a href="index.html"> <img src="https://assets.zyrosite.com/presson88qto/logo_presson-ALppXq88vMc9Q1jB.svg" alt=""></a>
+            </div>
+            <div class="navleft">
+          <a href="aboutus.html">About Us</a>
+          <div class="dropdown">
+            <button class="dropbtn">Projects
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Sunshine Bay residence</a>
+              <a href="bridge.html">Bridge water joy residence</a>
+              <a href="pleasent.html">Pleseant view Gem Inn</a>
+            </div>
+          </div> 
+          <a href="press.html">Press</a>
+          <a href="partner.html">Partner</a>
+          <a href="pressoncontact.html">Contact</a>
+          
+        </div>
+        </div>
+        <div class="third">
+            <div class="thirdhead">
+                <div class="t1"><h1>SUNSHINE BAY RESIDENCE</h1></div>
+                <div class="t2"><img src="https://assets.zyrosite.com/presson88qto/STAR-mP44eQoonWF39eWL.svg" alt=""></div>
+                           </div>
+            <div class="thirdimage">
+                <div class="imgright"><img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=631,fit=crop/presson88qto/img-Yg22g9g3VrTv30z1.png" alt=""></div>
+                <div class="imgleft">
+                    <div class="l1"><img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=194,fit=crop/presson88qto/img-m5KKebPQR3TEMy1J.png" alt=""></div>
+                    <div class="l1"><img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=194,fit=crop/presson88qto/img-AGBB74qgk4uRG9kL.png" alt=""></div>
+                    <div class="l1"><img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=194,fit=crop/presson88qto/img-AR00nbegPMtyo7E1.png" alt=""></div>
+                </div>
+            </div>
+            <div class="thirdbody">
+                <div class="b1">
+                    <span>At Sunshine Bay, you'll be surrounded by green spaces. The national park trails start a 10-minute drive away from the compound, but thanks to the big gardens at every property, you feel one with the nature the moment you sit down to enjoy your morning coffee in your yard.</span>
+                </div>
+                <div class="b2"><span>These stylish 3 bedroom family homes come with air conditioning, private pool and custom-made furnishing and interior. The underground parking, accessible by the private elevator, helps you stay dry no matter the weather outside. With all local amenities, from the local kindergarden and school to a small shopping mall, a mere 5-minute walk away, Sunshine Bay has a distinct small town feel to it that families love. </span></div>
+            </div>
+            <div class="holdersecond">
+                <div class="hsleft"><img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=402,fit=crop/presson88qto/img-YD00aBzDXQiqpkyZ.png" alt=""></div>
+                <div class="hsright">
+                    <div class="details"><h3>DETAILS</h3></div>
+                    <div class="bed">
+                        <div class="q1"><small>Bedroom</small></div>
+                        <div class="q2"><small><strong>3</strong></small></div>
+                    </div>
+                    <div class="bed">
+                        <div class="q1"><small>Size</small></div>
+                        <div class="q2"><small><strong>8,250 sq.feet</strong></small></div>
+                    </div>
+                    <div class="bed">
+                        <div class="q1"><small>Total Floors/Stories</small></div>
+                        <div class="q2"><small><strong>3</strong></small></div>
+                    </div>
+                    <div class="bed">
+                        <div class="q1"><small>Parking Spaces</small></div>
+                        <div class="q2"><small><strong>2</strong></small></div>
+                    </div>
+                    <div class="bed">
+                        <div class="q1"><small>Year Built</small></div>
+                        <div class="q2"><small><strong>2020</strong></small></div>
+                    </div>
+                </div>
+            </div>
+            <div class="secondholder1">
+                <div class="secondholderleft"><span>Whether you want to play soccer with your kids in the yard, or invite friends and family over for a lavish barbeque, Sunshine Bay is the perfect place for families. </span></div>
+                <div class="secondholderright"><h1>$2.000.000</h1></div>
+            </div>
+            <div class="sc">
+                <div class="sc1"><img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=1476,fit=crop/presson88qto/img-d955y7v3qnhpkkxW.png" alt=""></div>
+           <div class="sc2"><img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=604,fit=crop/presson88qto/img-Yg22gqxaMWSoDX6o.png" alt=""></div>
+            </div>
+            </div>
+
+        
+        <div class="sixth">
+            <div class="sixthleft">PROCESS OF BUYING</div>
+            <div class="sixthright">
+                <div class="a">
+                    <div class="aa1">1</div>
+                    <div class="aa2">
+                        <h4>HOUSE VIEWING</h4>
+                        <span>Each of us is a master of our craft – we've worked a number of years in our field and each have passion and creative vision for every project we put our hands on.</span>
+                    </div>
+                </div>
+                <div class="a">
+                <div class="aa1">2</div>
+                <div class="aa2">
+                    <h4>NEGOTIATING TERMS</h4>
+                    <span>We pay a lot of attention to each and every detail, because we know that we are in charge of creating somebody's safe haven. We partner up with the best craftsmen to ensure our famed quality.</span>
+                </div>
+            </div>
+            <div class="a">
+                <div class="aa1">3</div>
+                <div class="aa2">
+                    <h4>CLOSE CARE FREE</h4>
+                    <span>We're not scared to go beyond the horizon. As the visionaries of tomorrow, we won't say no to experimentation, unusual materials, or unlikely combinations.</span>
+                </div>
+            </div>
+            
+        </div>
+        
+            </div>
+        
+        <div class="eight">
+            <div class="eightleft">
+                <div class="eightl1"><h1>SEND US A MESSEGE</h1></div>
+                <div class="eightl2">If you're interested in hearing more about the way we work, have a business proposal, or are interested in making a purchase, we'd love to hear from you.</div>
+                <div class="extra"><img src="https://assets.zyrosite.com/presson88qto/DASH_white-m6LLoJ5Bx0SE51kz.svg" alt=""></div>
+            </div>
+            <div class="eightright">
+                <form action="">
+                    <label for="">Name</label><br>
+                    <input class="input1" type="text" placeholder="Your Name"><br>
+                    <label for="">Last Name</label><br>
+                    <input class="input1" type="text" placeholder="Last name"><br>
+                    <label for="">Email</label><br>
+                    <input class="input1" type="email" placeholder="Your Email adress"><br>
+                    <label for="">Messege</label><br>
+                    <input class="input2" type="text" placeholder="Enter your Messege"><br>
+                    <button class="but11"><a class="anc1" href="">Submit</a></button>
+                </form>
+        
+            </div>
+            
+        </div>
+        <div class="fourth">
+            <div class="fourthhead">
+                <div class="fh1"><h1>SEE OUR OTHER PROJECTS</h1></div>
+                <div class="fh2"><img src="https://assets.zyrosite.com/presson88qto/STAR-mP44eQoonWF39eWL.svg" alt=""></div>
+            </div>
+            <div class="fourthimage">
+                <div class="fi1"><img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=386,fit=crop/presson88qto/img-mnllz9aMRWSWnkrL.png" alt=""></div>
+                <div class="fi2"><img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=386,fit=crop/presson88qto/img-YZ99lbJeRkUp5gOx.png" alt=""></div>
+            </div>
+            <div class="flabel">
+                <div class="fl1"><h4>BRIDGEWATER JOY RESIDENCE</h4></div>
+                <div class="fl2"><h4>PLEASENT VIEW GEM INN</h4></div>
+            </div>
+            <div class="ffoot">
+                <div class="ff1"><span>Our years of experience makes us the ideal partner for your next project. We won't shy away from a challenge, but also know how to manage risks. </span></div>
+                <div class="ff2"><Button class="button1">see More</Button></div>
+            </div>
+        </div>
+        </div>
+        <div class="second">
+            <div class="secondleft">WHAT WE OFFER</div>
+            <div class="secondright">
+                <div class="a">
+                    <div class="a1"><img src="https://assets.zyrosite.com/presson88qto/STAR_white-mjEE09EooPIvgVMR.svg" alt=""></div>
+                    <div class="a2">
+                        <h4>EXPERIENCED TEAM</h4>
+                        <span>Each of us is a master of our craft – we've worked a number of years in our field and each have passion and creative vision for every project we put our hands on.</span>
+                    </div>
+                </div>
+                <div class="a">
+                <div class="a1"><img src="https://assets.zyrosite.com/presson88qto/STAR_white-mjEE09EooPIvgVMR.svg" alt=""></div>
+                <div class="a2">
+                    <h5>QUALITY TO DIE FOR</h5>
+                    <span>We pay a lot of attention to each and every detail, because we know that we are in charge of creating somebody's safe haven. We partner up with the best craftsmen to ensure our famed quality.</span>
+                </div>
+            </div>
+            <div class="a">
+                <div class="a1"><img src="https://assets.zyrosite.com/presson88qto/STAR_white-mjEE09EooPIvgVMR.svg" alt=""></div>
+                <div class="a2">
+                    <h5>VISIONARIES OF THE FUTURE</h5>
+                    <span>We're not scared to go beyond the horizon. As the visionaries of tomorrow, we won't say no to experimentation, unusual materials, or unlikely combinations.</span>
+                </div>
+            </div>
+            
+        </div>
+        
+            </div>
+            <div class="fifth">
+                <div class="fifhead">CLIENT FEEDBACK</div>
+                <div class="fifbody">
+                    <div class="fif1">
+                        <div class="ab1"><img src="https://assets.zyrosite.com/presson88qto/STAR_small_blag-AMqqMlVbB1C5axNW.svg" alt=""></div>
+                        <div class="ab2"><h4>Mariyam Hayes</h4>
+                        <span>We have bought and sold a handful of properties in the past with various different realtors, but none came close to the service we got at Presson's. Not only is the team full of experts who know what they're talking about, but they are also always willing to go that extra mile to ensure customer happiness and satisfaction. We were never left hanging and waiting for an answer – everyone got back to us promptly and we never felt like we weren't in the loop of what was going on. The whole process was smooth and we never felt rushed or pushed to make a decision. Instead, we could take the time to decide on everything, and ended up signing the papers within weeks. </span></div>
+                    </div>
+                    <div class="fif2">
+                        <div class="bb1"><img src="https://assets.zyrosite.com/presson88qto/STAR_small_blag-AMqqMlVbB1C5axNW.svg" alt=""></div>
+                        <div class="bb2"><h4>James and Susan Smith</h4>
+                        <span>We had heard a lot of praise for Presson's team, since many of our social circle was already using their services to purchase their own homes. We had pretty high expectations, and were pleasantly surprised when they were not just met, but surpassed by a mile. The team was accommodating at all stages – from viewing the properties, to providing extra information on some of the interior materials, to explaining in detail all the clauses in the contracts. Even our children could join the house viewing process, something which we were eternally grateful. Now, we are happy homeowners in a nice neighborhood, and we couldn't be happier.</span></div>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="footer">
+            <div class="footer1"><img src="https://assets.zyrosite.com/presson88qto/logo_presson_white-AMqqXN22XxI2Oz6Z.svg" alt=""></div>
+            <div class="footer2"><h4>CONTACTS</h4> <div class="f11"> <SPAN>123-456-7890 </SPAN></div>
+              <div class="f12"> <span>info@presson.com</SPAN></div></div>
+            <div class="footer3"><h4>ADDRESS</h4>
+                <div class="f11"><span>123 your street name, 
+                City name, Country, post code </span></div></div>
+        </div>
+</body>
+</html>
